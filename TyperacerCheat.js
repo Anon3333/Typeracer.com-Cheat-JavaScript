@@ -16,7 +16,7 @@
     }
     firstWord += ' ';
     //merg the strings
-    fullText = firstWord + restOfText;
+    var fullText = firstWord + restOfText;
     var inputBox = document.getElementsByClassName('txtInput');
     fullText = fullText.split(' ');
     var currentWord = 1;
